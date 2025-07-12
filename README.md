@@ -18,6 +18,10 @@ A modern, responsive Tic-Tac-Toe game built with React and Vite, featuring beaut
 
 Visit the live demo: [Tic-Tac-Toe Game](https://your-vercel-deployment-url.vercel.app)
 
+## Screenshot
+![homepage](./screenshot/w1.png)
+![homepage](./screenshot/m1.png)
+
 ## 🛠️ Technologies Used
 
 - **React** - Frontend framework
