@@ -71,8 +71,8 @@ Visit the live demo: [Tic-Tac-Toe Game](https://your-vercel-deployment-url.verce
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@your-username](https://github.com/codewith-hardik)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/chavdahardik)
+- GitHub: [GitHub](https://github.com/codewith-hardik)
+- LinkedIn: [My LinkedIn](https://linkedin.com/in/chavdahardik)
 
 ## 🙏 Acknowledgments
 
