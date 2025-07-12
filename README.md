@@ -54,105 +54,6 @@ Visit the live demo: [Tic-Tac-Toe Game](https://your-vercel-deployment-url.verce
    npm run preview
    ```
 
-## 🚀 Deployment to Vercel
-
-### Option 1: Deploy from GitHub (Recommended)
-
-1. Push your code to GitHub
-2. Go to [Vercel Dashboard](https://vercel.com/dashboard)
-3. Click "New Project"
-4. Import your GitHub repository
-5. Vercel will automatically detect it's a Vite project
-6. Click "Deploy"
-
-### Option 2: Deploy using Vercel CLI
-
-1. **Install Vercel CLI**
-   ```bash
-   npm i -g vercel
-   ```
-
-2. **Login to Vercel**
-   ```bash
-   vercel login
-   ```
-
-3. **Deploy**
-   ```bash
-   vercel --prod
-   ```
-
-## 📁 Project Structure
-
-```
-tic-tac-toe/
-├── public/
-│   └── vite.svg
-├── src/
-│   ├── assets/
-│   │   ├── circle.png
-│   │   └── cross.png
-│   ├── components/
-│   │   ├── TicTacToe.jsx
-│   │   └── TicTacToe.css
-│   ├── App.jsx
-│   ├── App.css
-│   ├── index.css
-│   └── main.jsx
-├── dist/                 # Build output
-├── vercel.json          # Vercel configuration
-├── vite.config.js       # Vite configuration
-└── package.json
-```
-
-## 🎮 How to Play
-
-1. The game starts with Player X
-2. Click on any empty square to place your mark
-3. Players alternate between X and O
-4. First player to get 3 marks in a row (horizontal, vertical, or diagonal) wins
-5. Click "Reset" to start a new game
-
-## 🐛 Troubleshooting
-
-### Common Deployment Issues
-
-1. **404 Errors for Assets**
-   - Ensure `base: "./"` is set in `vite.config.js`
-   - Check that `vercel.json` is properly configured
-
-2. **React Errors in Production**
-   - Make sure all refs are properly null-checked
-   - Avoid mutating state directly
-   - Use proper React patterns for state management
-
-3. **Build Fails**
-   - Check for ESLint errors: `npm run lint`
-   - Ensure all dependencies are installed: `npm install`
-
-## 🔧 Configuration Files
-
-### vite.config.js
-```javascript
-export default defineConfig({
-  plugins: [react()],
-  base: "./", // Important for deployment
-  build: {
-    outDir: 'dist',
-    assetsDir: 'assets'
-  }
-})
-```
-
-### vercel.json
-```json
-{
-  "version": 2,
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "framework": "vite"
-}
-```
 
 ## 🤝 Contributing
 
@@ -162,15 +63,12 @@ export default defineConfig({
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/your-profile)
+- GitHub: [@your-username](https://github.com/codewith-hardik)
+- LinkedIn: [Your LinkedIn](https://linkedin.com/in/chavdahardik)
 
 ## 🙏 Acknowledgments
 
@@ -179,16 +77,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Vercel for the excellent hosting platform
 
 ---
-
-⭐ If you found this project helpful, please give it a star!+ Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
