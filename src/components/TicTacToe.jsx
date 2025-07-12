@@ -113,6 +113,14 @@ const TicTacToe = () => {
                 </div>
             </div>
             <button className='btn' onClick={reset}>Reset</button>
+            
+            <div className='creator-credit'>
+                <div className='credit-text'>
+                    <span className='created-by'>Created by</span>
+                    <span className='creator-name'>Hardik Chavda</span>
+                </div>
+                <div className='credit-heart'>💻</div>
+            </div>
         </div>
     )
 }
