@@ -78,10 +78,7 @@ body {
     animation: gradientShift 4s ease-in-out infinite;
 }
 
-@keyframes gradientShift {
-    0%, 100% { background: linear-gradient(135deg, #26ffcb, #00d4ff); }
-    50% { background: linear-gradient(135deg, #ff6b6b, #feca57); }
-}
+
 
 .title img {
     height: clamp(40px, 8vw, 60px);
