@@ -295,16 +295,6 @@ body {
     animation: nameGlow 3s ease-in-out infinite alternate;
 }
 
-@keyframes nameGlow {
-    from { 
-        background: linear-gradient(135deg, #26ffcb, #00d4ff);
-        filter: drop-shadow(0 0 5px rgba(38, 255, 203, 0.3));
-    }
-    to { 
-        background: linear-gradient(135deg, #ff6b6b, #feca57);
-        filter: drop-shadow(0 0 10px rgba(255, 107, 107, 0.4));
-    }
-}
 
 .credit-heart {
     font-size: 1.2rem;

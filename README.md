@@ -4,7 +4,7 @@ A modern, responsive Tic-Tac-Toe game built with React and Vite, featuring beaut
 
 ![Tic Tac Toe Game](https://img.shields.io/badge/React-19.0.0-blue) ![Vite](https://img.shields.io/badge/Vite-6.3.3-green) ![CSS3](https://img.shields.io/badge/CSS3-Responsive-orange)
 
-## ✨ Features
+# ✨ Features
 
 - 🎨 **Beautiful UI**: Modern glassmorphism design with gradient backgrounds
 - 📱 **Fully Responsive**: Works perfectly on all devices (desktop, tablet, mobile)
